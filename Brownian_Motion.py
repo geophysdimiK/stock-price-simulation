@@ -70,3 +70,6 @@ from aleatory.processes import GBM
 
 # Create an instance of GBM
 geometric_brownian_motion = GBM(drift=1, volatility=0.5, initial=1.0, T=1.0, rng=None)
+
+#Drawing of the plot using the 'draw' command
+geometric_brownian_motion.draw(n=100, N=200)
